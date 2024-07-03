@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --color-base: #E5E5E5;
+    --color-texto-ingreso: #00008b; 
+    --color-boton-dos:#D8DFE8;
+
+    --fuente-inter: 'Inter','sand serif';
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-base);
+    height: 100vh;
+}
+
+.presentacion{
+    display: flex;
+}
+
+.container__boton__uno{
+    border-radius: 24px;
+    background: var(--color-texto-ingreso);    
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+    font-style: var(--fuente-inter);
+}
+
+.container__boton__dos{
+    border-radius: 24px;
+    background: var(--color-boton-dos);    
+    font-size: 16px;
+    border-color: var(--color-texto-ingreso);
+    width: 328px;
+    height: 67px;
+}
